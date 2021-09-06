@@ -7,7 +7,7 @@ const Logo = () => {
         <Link to="/">
         <StyledLogo
             alt={''}
-            src={'https://raw.githubusercontent.com/pbonazzi/slb/main/bonazzilogo.jpg'}>
+            src={'https://raw.githubusercontent.com/pbonazzi/PERSONAL-SLB/main/src/assets/logo.jpg'}>
         </StyledLogo>
         </Link>
     )

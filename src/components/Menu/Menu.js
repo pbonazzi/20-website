@@ -11,7 +11,7 @@ const Menu = ({ open, ...props }) => {
         <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
             <Link to="/professionisti">Professionisti</Link>
             <Link to="/contatti">Contatti</Link>
-            <Link to="/attivita">Attivita</Link>
+            <Link to="/servizi">Servizi</Link>
         </StyledMenu>
     )
 }

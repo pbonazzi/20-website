@@ -6,7 +6,7 @@ import Servizio from "../components/Servizio";
 import "./normalize.css";
 import { Helmet } from 'react-helmet';
 
-function Attivita() {
+function Servizi() {
 
     const titolo = [
         `Obbligazioni`,
@@ -31,14 +31,14 @@ function Attivita() {
     ];
 
     const icone = [
-        '../assets/obbligazioni.jpg',
-        'https://raw.githubusercontent.com/pbonazzi/slb/main/lavor.jpg',
-        'https://raw.githubusercontent.com/pbonazzi/slb/main/pat.jpg',
-        'https://raw.githubusercontent.com/pbonazzi/slb/main/info.jpg',
-        'https://raw.githubusercontent.com/pbonazzi/slb/main/pers.jpg',
-        'https://raw.githubusercontent.com/pbonazzi/slb/main/car.jpg',
-        'https://raw.githubusercontent.com/pbonazzi/slb/main/suc.jpg',
-        'https://raw.githubusercontent.com/pbonazzi/slb/main/tut.jpg',
+        'https://raw.githubusercontent.com/pbonazzi/PERSONAL-SLB/main/src/assets/obbligazioni.jpg',
+        'https://raw.githubusercontent.com/pbonazzi/PERSONAL-SLB/main/src/assets/lavor.jpg',
+        'https://raw.githubusercontent.com/pbonazzi/PERSONAL-SLB/main/src/assets/pat.jpg',
+        'https://raw.githubusercontent.com/pbonazzi/PERSONAL-SLB/main/src/assets/info.jpg',
+        'https://raw.githubusercontent.com/pbonazzi/PERSONAL-SLB/main/src/assets/pers.jpg',
+        'https://raw.githubusercontent.com/pbonazzi/PERSONAL-SLB/main/src/assets/car.jpg',
+        'https://raw.githubusercontent.com/pbonazzi/PERSONAL-SLB/main/src/assets/suc.jpg',
+        'https://raw.githubusercontent.com/pbonazzi/PERSONAL-SLB/main/src/assets/tut.jpg',
     ];
 
     const rows = [];
@@ -60,4 +60,4 @@ function Attivita() {
     );
 }
 
-export default Attivita;
+export default Servizi;

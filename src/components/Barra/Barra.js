@@ -8,7 +8,7 @@ function Barra() {
             <StyledBarra>
                 <StyledLink><Link to="/professionisti">Professionisti</Link></StyledLink>
                 <StyledLink><Link to="/contatti">Contatti</Link></StyledLink>
-                <StyledLink><Link to="/attivita">Attivita</Link></StyledLink>
+                <StyledLink><Link to="/servizi">Servizi</Link></StyledLink>
             </StyledBarra>
     );
 }
