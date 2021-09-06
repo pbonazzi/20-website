@@ -31,7 +31,7 @@ function Attivita() {
     ];
 
     const icone = [
-        'https://raw.githubusercontent.com/pbonazzi/slb/main/obbligazioni.jpg',
+        '../assets/obbligazioni.jpg',
         'https://raw.githubusercontent.com/pbonazzi/slb/main/lavor.jpg',
         'https://raw.githubusercontent.com/pbonazzi/slb/main/pat.jpg',
         'https://raw.githubusercontent.com/pbonazzi/slb/main/info.jpg',
@@ -49,7 +49,7 @@ function Attivita() {
     return (
         <ThemeProvider theme={theme}>
             <Helmet>
-                <title>Bonazzi | Attività</title>
+                <title>Servizi</title>
             </Helmet>
             <GlobalStyles />
             <h1> I servizi dello studio. </h1>
