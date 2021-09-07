@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const StyledLink = styled.nav`
     margin-right: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
 `
 
 export const StyledBarra = styled.nav`

@@ -5,6 +5,7 @@ import React from "react";
 import "./normalize.css";
 import Professionista from "../components/Professionista";
 import {Helmet} from "react-helmet";
+import {ColoredLine} from "../components/ColoredLine";
 
 function Professionisti() {
 
@@ -41,7 +42,7 @@ In ambito professionale, ha maturato esperienza nei settori di diritto civile e 
     return (
         <ThemeProvider theme={theme}>
             <Helmet>
-                <title>Bonazzi | Professionisti</title>
+                <title>Professionisti</title>
             </Helmet>
             <GlobalStyles />
             <div className='prof_container'>

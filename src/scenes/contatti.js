@@ -9,18 +9,10 @@ function Contatti() {
     return (
         <ThemeProvider theme={theme}>
             <Helmet>
-                <title>Bonazzi | Contatti</title>
+                <title>Contatti</title>
             </Helmet>
             <GlobalStyles />
-            <h1> Contatti. </h1>
-            <div className="contatti">
-                <ul>
-                    <li>Email : <a href={'mailto:avv.bonazzi@studiolegalebonazzi.it'}>avv.bonazzi@studiolegalebonazzi.it</a></li>
-                    <li>Telefono : <a href={'tel:0115683654'}>0115683654</a></li>
-                    <li>Fax : <a href={'tel:01150511523'}>01150511523</a></li>
-                </ul>
-
-
+            <div>
             </div>
 
         </ThemeProvider>

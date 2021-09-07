@@ -6,6 +6,7 @@ export const StyledServizio = styled.button`
     border-color: ${({ theme }) => theme.line1};
     border-width: 0.5px;
     height: 250px;
+  pointer-events: none;
     
     @media (min-width: ${({ theme }) => theme.pc_min}) {
       width: 33.33%;

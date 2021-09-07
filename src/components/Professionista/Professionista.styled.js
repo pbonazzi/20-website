@@ -4,8 +4,7 @@ export const StyledProfessionista = styled.div`
     
     background: ${({ theme }) => theme.background};
     font-family: "Montserrat", sans-serif;
-    
-    
+  
     @media (min-width: ${({ theme }) => theme.pc_min}) {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -58,7 +57,6 @@ export const StyledProfessionista = styled.div`
     
     img {
     margin-top: 5px;
-    margin-bottom: 15px;
     margin-left: 20px;
     position: relative;
     width: 75%;

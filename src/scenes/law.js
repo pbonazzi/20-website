@@ -3,13 +3,14 @@ import { GlobalStyles } from '../styles/global';
 import { theme } from '../styles/theme';
 import {Helmet} from "react-helmet";
 import React from "react";
+import {ColoredLine} from "../components/ColoredLine";
 
 function Law() {
 
     return (
         <ThemeProvider theme={theme}>
             <Helmet>
-                <title>Bonazzi | Privacy</title>
+                <title>Privacy</title>
             </Helmet>
             <GlobalStyles />
             <div className="privacy">

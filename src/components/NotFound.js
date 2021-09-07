@@ -2,11 +2,9 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from '../styles/global';
 import { theme } from '../styles/theme';
-import {SlideShow} from './index';
-import { title, short, text } from '../story.json';
 import "../scenes/normalize.css";
 
-function HomeC() {
+function NotFound() {
 
 
     return (
@@ -14,13 +12,10 @@ function HomeC() {
             <GlobalStyles />
             <div class="home_container">
                 <h1 class="title">
-                    {title}
+                    Questa pagina non esiste.
                 </h1>
                 <div className="home_text">
-                    {text}
-                </div>
-                <div class="home_slide">
-                    <SlideShow/>
+                    Per continuare la navigazione clicca in una voce del menu oppure sul logo.
                 </div>
             </div>
         </ThemeProvider>
@@ -28,4 +23,4 @@ function HomeC() {
     );
 }
 
-export default HomeC;
+export default NotFound;

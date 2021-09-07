@@ -16,13 +16,14 @@ function Header() {
     return (
         <ThemeProvider theme={theme}>
                 <GlobalStyles />
-                <div class="header">
+                <div className="header">
                     <Logo/>
                     <div ref={node}>
                         <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
                         <Menu open={open} setOpen={setOpen} id={menuId} />
                     </div>
                     <Barra/>
+
                 </div>
 
         </ThemeProvider>

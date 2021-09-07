@@ -6,7 +6,7 @@ function Barra() {
 
     return (
             <StyledBarra>
-                <StyledLink><Link to="/professionisti">Professionisti</Link></StyledLink>
+                <StyledLink ><Link to="/professionisti" > Professionisti</Link></StyledLink>
                 <StyledLink><Link to="/contatti">Contatti</Link></StyledLink>
                 <StyledLink><Link to="/servizi">Servizi</Link></StyledLink>
             </StyledBarra>

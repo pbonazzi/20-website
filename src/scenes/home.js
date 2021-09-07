@@ -10,7 +10,7 @@ function Home() {
     return (
         <ThemeProvider theme={theme}>
             <Helmet>
-                <title>Bonazzi | Home</title>
+                <title>Home</title>
             </Helmet>
             <GlobalStyles />
             <HomeC> </HomeC>
