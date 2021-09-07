@@ -23,7 +23,7 @@ const routing = (
                 <Route exact path="/privacy" component={Law} />
                 <Route exact path="/professionisti" component={Professionisti} />
                 <Route exact path="/contatti" component={Contatti} />
-                <Route exact path="/*" component={NotFound} />
+                <Route path="*" component={NotFound} />
             </Switch>
             <ColoredLine color={theme.line1}/>
             <Footer />
