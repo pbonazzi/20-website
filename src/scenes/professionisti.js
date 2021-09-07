@@ -31,8 +31,8 @@ In ambito professionale, ha maturato esperienza nei settori di diritto civile e 
     ];
 
     const immagine = [
-        'https://raw.githubusercontent.com/pbonazzi/slb/main/papa.jpg',
-        'https://raw.githubusercontent.com/pbonazzi/slb/main/ale.jpg',
+        'https://raw.githubusercontent.com/pbonazzi/PERSONAL-SLB/main/src/assets/papa.jpg',
+        'https://raw.githubusercontent.com/pbonazzi/PERSONAL-SLB/main/src/assets/ale.jpg',
     ];
 
     const rows = [];
