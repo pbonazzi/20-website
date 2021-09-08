@@ -10,8 +10,8 @@ function NotFound() {
     return (
         <ThemeProvider theme={theme}>
             <GlobalStyles />
-            <div class="home_container">
-                <h1 class="title">
+            <div className="home_container">
+                <h1 className="title">
                     Questa pagina non esiste.
                 </h1>
                 <div className="home_text">

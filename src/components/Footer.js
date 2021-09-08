@@ -35,15 +35,15 @@ function Footer() {
     return (
         <ThemeProvider theme={theme}>
             <GlobalStyles />
-            <div className="contatti">
+            <div className="highbox">
             <div className='footer'>
-                <Ufficio2></Ufficio2>
+                <Ufficio2/>
                 <Ufficio citta={citta[0]} street_comma_num={street_comma_num[0]} zip_comma_town={zip_comma_town[0]} map={map[0]} />
                 <Ufficio citta={citta[1]} street_comma_num={street_comma_num[1]} zip_comma_town={zip_comma_town[1]} map={map[1]} />
             </div>
             <ColoredLine color={theme.line1}/>
-            <div className='links'>
-                <Logo></Logo>
+            <div className='end'>
+                <Logo/>
                 <Button page={"/privacy"} text={"Normativa sulla privacy"}> </Button>
             </div>
         </div>

@@ -5,7 +5,6 @@ import React from "react";
 import Servizio from "../components/Servizio";
 import "./normalize.css";
 import { Helmet } from 'react-helmet';
-import {ColoredLine} from "../components/ColoredLine";
 
 function Servizi() {
 

@@ -5,13 +5,13 @@ import {Link} from "react-router-dom";
 
 const Menu = ({ open,setOpen,...props }) => {
 
-    const isHidden = open ? true : false;
+    const isHidden = !!open;
 
     return (
         <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
             <Link to="/professionisti"  onClick={() => setOpen(!open)}>Professionisti</Link>
-            <Link to="/contatti"onClick={() => setOpen(!open)}>Contatti</Link>
-            <Link to="/servizi"onClick={() => setOpen(!open)}>Servizi</Link>
+            <Link to="/contatti" onClick={() => setOpen(!open)}>Contatti</Link>
+            <Link to="/servizi" onClick={() => setOpen(!open)}>Servizi</Link>
         </StyledMenu>
     )
 }
